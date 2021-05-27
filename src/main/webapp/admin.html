@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jindex Admin</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Jindex Admin</h1>
+        <form>
+            <label for="repository">Repository:</label>
+            <select id="repository">
+                <option value="h2">H2 1.4.196</option>
+                <option value="jaxp">JAXP</option>
+                <option value="jedit">jEdit 5.3.0</option>
+                <option value="mockito">Mockito 2.2.0</option>
+                <option value="nashorn">Nashorn 2.2.0</option>
+            </select>
+            <input id="submit" type="button" value="Initialize">
+        </form>
+        <div id="result"></div>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/js/admin.js"></script>
+    </body>
+</html>
